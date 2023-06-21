@@ -1,7 +1,6 @@
 import express from "express";
 import { db } from "./configs/db.config";
 // import { router } from "./routes/user.routes";
-
 const app = express();
 
 app.use(express.json());
