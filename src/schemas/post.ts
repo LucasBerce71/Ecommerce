@@ -10,7 +10,6 @@ export const PostschemaValidate = Joi.object({
 
 })
 
-
 const postSchema = new Schema<IPosts>({
   title: {
     type: String,

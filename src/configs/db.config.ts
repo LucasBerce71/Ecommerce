@@ -8,7 +8,7 @@ const username = process.env.MONGO_DB_USERNAME;
 const password = process.env.MONGO_DB_PASSWORD;
 const databaseName = process.env.MONGO_DB_DATABASE_NAME;
 
-const connectionString = `mongodb+srv://${username}:${password}@ecommerce-express.zhfyc6b.mongodb.net/`;
+const connectionString = `mongodb+srv://${username}:${password}@ecommerce-express.zhfyc6b.mongodb.net/${databaseName}`;
 
 const options: IMongoDBConnectOptions = {
   autoIndex: true,
